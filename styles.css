@@ -8,8 +8,22 @@
     src: url(fonts/Norsebold.otf);
 }
 
+html {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1 {
     font-family: Norsebold;
+}
+
+#title {
+    font-size: 64px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#title h1 {
+    color: white;
 }
 
 img#leaf_background {
@@ -18,4 +32,8 @@ img#leaf_background {
 
 img#logo {
     width: 2em;
+}
+
+.paragraph > p {
+    font-weight: bold;
 }
