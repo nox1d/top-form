@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Norse;
+    src: url(fonts/Norse.otf);
+}
+
+@font-face {
+    font-family: Norsebold;
+    src: url(fonts/Norsebold.otf);
+}
+
+h1 {
+    font-family: Norsebold;
+}
+
+img#leaf_background {
+    width: 33vw;
+}
+
+img#logo {
+    width: 2em;
+}
