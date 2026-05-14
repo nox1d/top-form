@@ -10,7 +10,7 @@
 
 html, body {
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -28,7 +28,7 @@ p {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -83,6 +83,10 @@ img#logo {
     margin: 0;
 }
 
+.paragraph {
+    margin: 1rem 0;
+    padding: 2rem 2rem;
+}
 .paragraph > p {
     font-weight: bold;
 }
@@ -91,7 +95,58 @@ img#logo {
     background-color: #f2f6ff
 }
 
+form {
+    width: 100%;
+}
+
+form h3 {
+    font-size: 24px;
+}
+
 .form-body {
     background-color: white;
     box-shadow: 0px 5px 10px lightgray;
+    padding: 2rem 2rem;
 }
+
+.form-body input {
+    appearance: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    height: 2rem;
+    border-radius: 0.25rem;
+    border: 2px solid lightgray;
+    background-color: rgb(254, 254, 254);
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: rgb(65, 135, 255);
+    box-shadow: 1px 1px 8px 1px rgb(141, 141, 141);
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+.input-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.5rem;
+    row-gap: 1.5rem;
+}
+
+.input-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.btn-wrapper {
+    padding: 2rem 2rem;
+}
+
+
